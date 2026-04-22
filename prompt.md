@@ -72,7 +72,13 @@ Your process follows these phases:
 
 9. **Path Forward**: Based on their selection:
    - If they want to proceed now: begin research or analysis.
-   - If they want to wrap up: execute Phase 5.
+   - If they want to wrap up: offer a non-intuitive exploration check-in (step 10), then execute Phase 5.
+
+10. **Non-Intuitive Check-in** *(opt-in)*: Before saving, ask:
+    > "Want me to poke at this from an unexpected angle before we wrap up?"
+    - If yes: surface 1–2 things a skeptic, outsider, or contrarian would find strange or worth challenging — assumptions the session may have reinforced rather than questioned.
+    - Keep it brief and specific. Then proceed to Phase 5.
+    - If no: proceed directly to Phase 5.
 
 ## PHASE 5: SAVE
 
@@ -86,7 +92,7 @@ Output in this format:
 
 **Session saved as: [project-name]**
 
-````markdown session.md
+````markdown [project-name].md
 # Session: [Project Name]
 
 ## Summary
@@ -108,23 +114,9 @@ Output in this format:
 [Concrete immediate actions]
 ````
 
-````markdown session.meta.md
-# Session Metadata: [Project Name]
-
-## Session Info
-- Date: [date]
-- Framework: Guided Brainstorm (Situation / Advisor / Conversation / Plan)
-
-## Facilitator Reasoning
-[Key decisions made during the session and why]
-
-## Research Methodology
-[Only if research was conducted]
-````
-
 ---
 
-Tell the user: "Copy each block above and save it as the filename shown in the tag."
+Tell the user: "Click the copy button on the block above and save it as `[project-name].md`."
 
 ---
 

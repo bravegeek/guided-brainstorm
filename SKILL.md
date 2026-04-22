@@ -70,18 +70,24 @@ Your process follows these phases:
 
 9. **Path Forward**: Based on their selection:
    - If they want to proceed now: begin research or analysis.
-   - If they want to save for later: execute Phase 5.
+   - If they want to save for later: offer a non-intuitive exploration check-in (step 10), then execute Phase 5.
+
+10. **Non-Intuitive Check-in** *(opt-in)*: Before saving, ask:
+    > "Want me to poke at this from an unexpected angle before we wrap up?"
+    - If yes: surface 1–2 things a skeptic, outsider, or contrarian would find strange or worth challenging — assumptions the session may have reinforced rather than questioned.
+    - Keep it brief and specific. Then proceed to Phase 5.
+    - If no: proceed directly to Phase 5.
 
 ## PHASE 5: SAVE
 
 **Execute when the user says "save", "done", "wrap up", or similar.**
 
-10. **Output Directory**: Create a new directory:
+11. **Output Directory**: Create a new directory:
     - **Default format**: `./brainstorms/[project-name]-YYYY-MM/` (create if it doesn't exist)
     - Example: `./brainstorms/career-pivot-strategy-2026-04/`
     - **Override**: if the user specified a different save location at the start of the session, use that path instead.
 
-11. **Create Documents**:
+12. **Create Documents**:
 
     **session.md** — Main results:
     - Session Summary, Situation, Advisor Role, Conversation Insights, Plan, Next Steps
@@ -91,7 +97,7 @@ Your process follows these phases:
 
     **research.md** — Only if research was conducted during the session.
 
-12. **Confirmation**: Tell the user the path where the files were saved.
+13. **Confirmation**: Tell the user the path where the files were saved.
 
 ## QUALITY STANDARDS
 
