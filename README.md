@@ -33,6 +33,14 @@ The session moves through four phases:
 3. Work through the session normally.
 4. At the end, say "save" — same inline output behavior as ChatGPT.
 
+## Get the prompt
+
+[Download prompt.md](https://raw.githubusercontent.com/bravegeek/guided-brainstorm/main/prompt.md) or fetch it from the terminal:
+
+```bash
+curl -sO https://raw.githubusercontent.com/bravegeek/guided-brainstorm/main/prompt.md
+```
+
 ## Which file to use
 
 | File | Use case |
